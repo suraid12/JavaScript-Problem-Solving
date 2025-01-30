@@ -96,13 +96,24 @@ console.log(isArrayEmpty([1, 2, 3])); // false
 ##### Solution(js) :
 ```javascript
 
-function factorialize(num) {
-  if (num === 0 || num === 1) return 1;
-  return ....;
-}
 
-console.log(factorialize(5)); // 120
-console.log(factorialize(7)); // 5040
+function factorial(num) {
+    if (num === 0 || num === 1) return 1;
+    if(num < 0 )  return  "Factorial is not defined for negative numbers";
+    if(num > 1){
+        let result = 1;
+        for (let i = 1; i <=num; i++) {
+            result *= i;
+        }
+        return result;
+        
+        
+    }
+  }
+  
+  console.log(factorial(5)); // 120
+  console.log(factorial(7)); // 5040
+  
 
 ```
 ### 9. Write a function to reverse a string. The function should take a single argument, which is the string to reverse.

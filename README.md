@@ -1,9 +1,8 @@
 # Example Project
 
-## Code Snippet to Copy
+## Code Snippet to Copy and Edit
 
-Here is a code snippet that you can copy and use:
-## [Link Title](https://yourlink.com)
+Here is a code snippet that you can copy and edit:
 
 ```javascript
 function greet(name) {
@@ -11,3 +10,4 @@ function greet(name) {
 }
 
 greet("Alice");
+

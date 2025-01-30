@@ -101,8 +101,8 @@ console.log(squareRoot) // 3
 ```
 ### 10. comparison operator related problems!
 #### 1.  Choose the correct comparison operator to alert true, when x is greater than y. 
-##### Solution(js :
-```javascrit
+##### Solution(js) :
+```javascript
 
 let  x = 10 , y =5;
 if(x > y){
@@ -116,7 +116,7 @@ if(x > y){
 
 
 ##### Solution(js) :
-```javascrit
+```javascript 
 let age = 19;
 let message = age < 18 ? "Too young" : "Old enough"
 alert(message)

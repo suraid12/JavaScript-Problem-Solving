@@ -1,13 +1,5 @@
-# Example Project
-
-## Code Snippet: JavaScript Function to Greet
-
-This is an example of a JavaScript function that prints a greeting message.
-
+# JavaScript Basic Problem Solving-1
+##  1. Create a variable called `carName`, assign the value `Volvo` to it.
+### Solution
 ```javascript
-function greet(name) {
-  console.log("Hello, " + name + "!");
-}
-
-greet("Alice");
-
+let carName = "Volvo";

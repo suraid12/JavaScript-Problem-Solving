@@ -1,8 +1,8 @@
 # Example Project
 
-## Code Snippet to Copy and Edit
+## Code Snippet: JavaScript Function to Greet
 
-Here is a code snippet that you can copy and edit:
+This is an example of a JavaScript function that prints a greeting message.
 
 ```javascript
 function greet(name) {
